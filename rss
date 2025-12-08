@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>My Example Feed</title>
+    <link>https://circuit-breaker-bbp.github.io/</link>
+    <description>This is an example RSS feed with no items yet</description>
+    <language>en-us</language>
+    <pubDate>Mon, 08 Dec 2025 12:00:00 GMT</pubDate>
+    <lastBuildDate>Mon, 08 Dec 2025 12:00:00 GMT</lastBuildDate>
+    <generator>Custom RSS Generator</generator>
+    
+    <!-- Items would appear here -->
+    
+  </channel>
+</rss>
